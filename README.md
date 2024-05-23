@@ -15,6 +15,17 @@
   STEP-5: Finally, right shift of ‘s’ times are performed and the results are combined together to produce the final output.
   
 ## PROGRAM:
+#Code to demonstrate the MD5
+
+import hashlib
+
+# function 
+result = hashlib.md5(b'GeeksforGeeks')
+
+# printing the equivalent byte value.
+print("The byte equivalent of hash is : ", end ="")
+print(result.digest())
+
 
 ## OUTPUT:
 
